@@ -79,15 +79,6 @@ Accept one-time Nano payments.
 </script>
 ```
 
-### Coming Soon
-
-```html
-<script>
-    nano.rpc(...)
-    nano.wallet(...)
-</script>
-```
-
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
 ### License
