@@ -24,7 +24,7 @@
 
 **Local:**
 ```html
-<script src="/NanoWall.js"></script>
+<script src="/latest.js"></script>
 ```
 
 **CDN:**
