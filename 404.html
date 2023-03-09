@@ -12,7 +12,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>NanoWall.js - Crypto Monetization Browser Library</title>
+        <title>NanoWall.js - Crypto Paywall Browser Plugin</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
@@ -433,11 +433,11 @@
     </head>
     
     <body>
-        <p style="display: none; opacity: 0;">Non-custodial, back-end agnostic crypto monetization browser library. Easily monetize any DOM element on your website.</p>
+        <p style="display: none; opacity: 0;">Non-custodial, back-end agnostic DOM monetization browser library. Easily monetize any DOM element with Nano currency.</p>
         <!-- partial:index.partial.html -->
         <nav>   
             <a id="home" href="https://nano.to" target="_blank">Nano.to Presents</a>
-            <a id="home" href="https://github.com/fwd/nano-pay" target="_blank">Documentation</a>
+            <a id="home" href="https://github.com/fwd/nano-wall" target="_blank">Github</a>
         </nav>
         <header>
                 <h1 class="smaller">NanoWall.js</h1>
@@ -666,7 +666,7 @@
                                     condimentum.</p>
         </article>
         
-        <script src="/NanoWall.js"></script>
+        <script src="/latest.js"></script>
 
         <script>
             nano.paywall({ 
@@ -680,7 +680,7 @@
                 text: 'Read Lorem for', // optional
                 title: '', // optional
                 color: '', // optional
-                endpoint: 'https://nanolooker.com/api/rpc', // optional
+                // endpoint: 'https://nanolooker.com/api/rpc', // optional
                 success: (block) => {
                     // Element(s) are automatically shown.
                     console.log(block)
