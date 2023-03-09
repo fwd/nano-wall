@@ -16,7 +16,7 @@
 
 ### Live Demo
 
-<a target="_blank" href="https://blog.nano.to">https://blog.nano.to</a>
+<a target="_blank" href="https://blog.nano.to">https://wall.nano.to</a>
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
