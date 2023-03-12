@@ -14,20 +14,19 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 
 	window.nano.rpc = {
 
-		   // looking for sugar nodes
-	       endpoint: 'https://rcp.nano.to',
+	       endpoint: 'https://rpc.nano.to',
 
-			post(endpoint, data) {
-				return new Promise((resolve) => {
-				    var xhr = new XMLHttpRequest();
-				    xhr.open("POST", endpoint, true);
-				    xhr.setRequestHeader('Content-Type', 'application/json');
-				    xhr.send(JSON.stringify(data));
-				    xhr.onload = function() {
-				      resolve(JSON.parse(this.responseText))
-				    }
-				})
-			},
+		post(endpoint, data) {
+			return new Promise((resolve) => {
+			    var xhr = new XMLHttpRequest();
+			    xhr.open("POST", endpoint, true);
+			    xhr.setRequestHeader('Content-Type', 'application/json');
+			    xhr.send(JSON.stringify(data));
+			    xhr.onload = function() {
+			      resolve(JSON.parse(this.responseText))
+			    }
+			})
+		},
 
 	       pending(address, count) {
 	         return new Promise((resolve) => {
