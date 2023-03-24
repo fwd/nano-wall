@@ -2,7 +2,7 @@
 
 <h1 align="center">NanoWall.js</h1>
 
-<h3 align="center">Non-custodial Crypto HTML Paywall</h3>
+<h3 align="center">Crypto HTML Paywall</h3>
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 ![line](https://github.com/fwd/nano-wall/raw/master/img/splash2.png)
