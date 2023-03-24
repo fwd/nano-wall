@@ -5,10 +5,6 @@
 <h3 align="center">Non-custodial, backend-agnostic DOM monetization library.</h3>
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
-
-![line](https://github.com/fwd/nano-wall/raw/master/img/wall.png)
-
-![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 ![line](https://github.com/fwd/nano-wall/raw/master/img/splash2.png)
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 ![line](https://github.com/fwd/nano-wall/raw/master/img/splash3.png)
