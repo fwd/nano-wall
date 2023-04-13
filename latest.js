@@ -294,7 +294,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 
             all[i].innerHTML = ''
             
-            let code = `<div class="nano-locked" style="font-family:'Arial';text-align:center;position: absolute;background: rgb(31 156 233);width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;font-size: 24px;min-height: 180px;display: flex;align-items: center;flex-direction: column;justify-content: center;color: #FFF;padding: 130px 0;border-radius: 20px;">
+            let code = `<div class="nano-locked" style="text-align:center;background: rgb(31 156 233);width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;font-size: 24px;min-height: 180px;display: flex;align-items: center;flex-direction: column;justify-content: center;color: #FFF;padding: 60px 0;border-radius: 5px;margin-top: 10px;">
     <div>
         ${ config.text ? config.text + ' ' + config.amount + ' NANO' : 'Unlock for ' + config.amount + ' NANO' }
     </div>
@@ -304,7 +304,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
     </div>
 `
             if (config.free) {
-                code += `<div onclick="window.nano.success('${config.element}')" style="opacity: 0.6; zoom: 0.8; "> <hr style=" margin: 20px 0 30px 0; "> Free ${ config.text ? config.text : 'Unlock for ' + config.amount }</div>`
+                code += `<div onclick="window.nano.success('${config.element}')" style="zoom: 0.8; "> <hr style=" margin: 20px 0 30px 0; "> Free ${ config.text ? config.text : 'Unlock for ' + config.amount }</div>`
             }
 
             code += '</div>'
