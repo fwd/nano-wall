@@ -80,13 +80,7 @@ Accept one-time Nano payments.
 
 ### License
 
-**Limited Commercial:**
-
-- ✅ Personal & Open Source
-- ✅ Commercial use where NanoWall.js is a means to an end.
-- ❌ Commercial use where NanoWall.js is the end-product.
-
-Contact [@nano2dev](mailto:support@nano.to) for licensing questions.
+**MIT**
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
