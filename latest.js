@@ -271,7 +271,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
             config = config || {}
         }
 
-        if (!config.address || !config.address.includes('nano_')) return console.error('Nano: NANO payment address invalid:', config.element)
+        if (!config.address || ( !config.address.includes('nano_') && !config.address.includes('@') ) ) return console.error('Nano: NANO payment address invalid:', config.element)
 
         if ( !NanocurrencyWeb.tools.validateAddress(config.address) ) return console.error('Nano: NANO payment address invalid:', config.element)
 
