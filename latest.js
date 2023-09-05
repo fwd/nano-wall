@@ -321,7 +321,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
     </div>
 `
             if (config.free) {
-                code += `<div onclick="window.nano.success('${config.element}')" style="zoom: 0.8; "> <hr style=" margin: 20px 0 30px 0; "> Free ${ config.text ? config.text : 'Unlock for ' + config.amount }</div>`
+                code += `<div onclick="window.nano.success('${config.element}')" style="zoom: 0.8; "> <hr style=" margin: 20px 0 30px 0; ">${ config.free_text ? config.free_text : 'Free Read' }</div>`
             }
 
             code += '</div>'
