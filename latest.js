@@ -311,7 +311,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 
             all[i].innerHTML = ''
             
-            let code = `<div class="nano-locked" style="text-align:center;background: rgb(31 156 233);width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;font-size: 24px;min-height: 180px;display: flex;align-items: center;flex-direction: column;justify-content: center;color: #FFF;padding: 60px 0;border-radius: 5px;margin-top: 10px;">
+            let code = `<div class="nano-locked" style="text-align:center;background: rgb(31 156 233);width: 100%;top: 0;left: 0;bottom: 0;right: 0;font-size: 24px;min-height: 180px;display: flex;align-items: center;flex-direction: column;justify-content: center;color: #FFF;padding: 60px 0;border-radius: 5px;margin-top: 10px;">
     <div>
         ${ config.text ? config.text + ' ' + config.amount + ' NANO' : 'Unlock for ' + config.amount + ' NANO' }
     </div>
