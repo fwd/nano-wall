@@ -235,7 +235,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
         	
     	data.common = `${amount}${data.arbitrary}`
 
-        var template = `<div id="nano-pay" style="font-family: 'Arial'; position: fixed;width: 100%;height:100%;background:${window.nano.dark_mode ? '#000' : '#FFF'};z-index: 9999;left: 0;top: 0;right: 0;bottom: 0;display: flex;align-items: center;justify-content: center;flex-direction: column;color: #FFF;font-size: 30px;">
+        var template = `<div id="nano-pay" style="font-family: 'Arial'; position: fixed;width: 100%;background:${window.nano.dark_mode ? '#000' : '#FFF'};z-index: 9999;left: 0;top: 0;right: 0;bottom: 0;display: flex;align-items: center;justify-content: center;flex-direction: column;color: #FFF;font-size: 30px;">
     <div style="margin: 0 0 20px 0;font-size: 38px; color:${color && color !== 'undefined' ? color : '#1f9ce9;'}">
         ${ title && title !== 'undefined' ? title : 'NanoPay'}
     </div>
@@ -306,8 +306,8 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 
             var item = all[i]
 
-            item.style['min-height'] = item.offsetHeight; 
-            item.style.position = "relative"; 
+            // item.style['min-height'] = item.offsetHeight; 
+            // item.style.position = "relative"; 
 
             all[i].innerHTML = ''
             
