@@ -20,7 +20,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 			return new Promise((resolve) => {
 			    var xhr = new XMLHttpRequest();
 			    xhr.open("GET", endpoint, true);
-			    xhr.setRequestHeader('Content-Type', 'application/json');
+			    // xhr.setRequestHeader('Content-Type', 'application/json');
 			    xhr.send();
 			    xhr.onload = function() {
 			      resolve(JSON.parse(this.responseText))
