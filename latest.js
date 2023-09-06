@@ -137,7 +137,7 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
     
     window.nano.success = (element, data, block) => {
 
-    	console.log( "block", block )
+    	// console.log( "block", block )
         
         var existing = document.getElementById('nano-pay')
 
@@ -163,9 +163,15 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 	        var all = document.querySelectorAll(element);
 
 	        for (var i=0, max=all.length; i < max; i++) {
-	        	if ( all[i].querySelector('.nano-locked') ) all[i].querySelector('.nano-locked').remove()
+	        	// if ( all[i].querySelector('.nano-locked') ) all[i].querySelector('.nano-locked').remove()
 	            all[i].innerHTML = window.nano[i]
 	            all[i].style.position = null; 
+	        }
+
+	        var locked = document.querySelectorAll('.nano-locked');
+
+	        for (var i = 0, max = locked.length; i < max; i++) {
+	        	if ( locked[i] ) locked[i].remove()
 	        }
 
         }
