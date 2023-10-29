@@ -163,9 +163,9 @@ var NanocurrencyWeb;(()=>{var e={4431:function(e,t,r){var n;!function(i){"use st
 	        var all = document.querySelectorAll(element);
 
 	        for (var i=0, max=all.length; i < max; i++) {
-	        	// if ( all[i].querySelector('.nano-locked') ) all[i].querySelector('.nano-locked').remove()
-	            all[i].innerHTML = window.nano[i]
+	            all[i].innerHTML = window.nano[i];
 	            all[i].style.position = null; 
+	            all[i].classList.add("unlocked");
 	        }
 
 	        var locked = document.querySelectorAll('.nano-locked');
