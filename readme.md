@@ -1,19 +1,19 @@
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
-<h1 align="center">NanoWall.js</h1>
+<h1 align="center">NanoPay.js</h1>
 
 <h3 align="center">Crypto HTML Paywall</h3>
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
-![line](https://github.com/fwd/nano-wall/raw/master/img/splash2.png)
+![line](https://github.com/fwd/nano-pay/raw/master/img/splash2.png)
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
-![line](https://github.com/fwd/nano-wall/raw/master/img/splash3.png)
+![line](https://github.com/fwd/nano-pay/raw/master/img/splash3.png)
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
 ### Live Demo
 
-<a target="_blank" href="https://blog.nano.to">https://wall.nano.to</a>
+<a target="_blank" href="https://blog.nano.to">https://pay.nano.to</a>
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
@@ -26,7 +26,7 @@
 
 **CDN:**
 ```html
-<script src="https://wall.nano.to/latest.js"></script>
+<script src="https://pay.nano.to/latest.js"></script>
 ```
 
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
