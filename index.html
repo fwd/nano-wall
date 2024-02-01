@@ -12,7 +12,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>NanoPay.js - Nano Web Payments</title>
+        <title>NanoWall.js - Nano HTML Paywall</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
@@ -427,41 +427,50 @@
                     font-size: 20vh;
                 }
             }
+
+            .premium {
+                display: none;
+            }
+
         </style>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> -->
-        <!-- <script src="https://metrics.bar/js/script.js" id="metrics" async defer></script> -->
+
     </head>
     
     <body>
+
         <p style="display: none; opacity: 0;">Non-custodial, back-end agnostic DOM monetization browser library. Easily monetize any DOM element with Nano currency.</p>
-        <!-- partial:index.partial.html -->
+
         <nav>   
             <a id="home" href="https://nano.to" target="_blank">Nano.to Presents</a>
             <a id="home" href="https://github.com/fwd/nano-pay" target="_blank">Github</a>
         </nav>
+
         <header>
             <h1 class="smaller">NanoPay.js</h1>
         </header>
+
         <article class="premium">
-            <h2 id="one">Nano Web Payments</h2>
-            <a id="button" onclick="doButton()">Pay 5 NANO</a>
+
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Amet tenetur ab reprehenderit temporibus, illum recusandae nostrum iusto omnis repellendus id quae ullam reiciendis dolorem aliquam fuga, tempora iste animi.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Amet tenetur ab reprehenderit temporibus, illum recusandae nostrum iusto omnis repellendus id quae ullam reiciendis dolorem aliquam fuga, tempora iste animi.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Amet tenetur ab reprehenderit temporibus, illum recusandae nostrum iusto omnis repellendus id quae ullam reiciendis dolorem aliquam fuga, tempora iste animi.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Amet tenetur ab reprehenderit temporibus, illum recusandae nostrum iusto omnis repellendus id quae ullam reiciendis dolorem aliquam fuga, tempora iste animi.</p>
+
         </article>
         
-        <script src="/latest.js"></script>
+        <script src="https://pay.nano.to/latest.js"></script>
 
         <script>
-             nano.pay({ 
-                element: '#button', // optional css hex
-                address: '@bank', // required
-                amount: 0.001, // required
-                debug: false, // optional
-                // text: 'Unlock', // optional
-                // color: 'red', // optional
-                success: (block) => {
-                    
-                    console.log(block)
-
-                }
+            NanoPay.wall({ 
+                title: 'Read Story',
+                button: 'Unlock Lorem Ipsum',
+                free: true,
+                element: '.premium',
+                amount: 0.0001, // Cost of article
+                address: '@development'
             })
         </script>
     </body>

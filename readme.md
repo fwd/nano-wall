@@ -1,6 +1,6 @@
 ![line](https://github.com/fwd/n2/raw/master/.github/line.png)
 
-<h1 align="center">NanoPay.js</h1>
+<h1 align="center">NanoWall.js</h1>
 
 <h3 align="center">Crypto HTML Paywall</h3>
 
@@ -19,12 +19,6 @@
 
 ### Install
 
-**Local:**
-```html
-<script src="/latest.js"></script>
-```
-
-**CDN:**
 ```html
 <script src="https://pay.nano.to/latest.js"></script>
 ```
@@ -39,37 +33,13 @@ Monetize any DOM element on your website.
 
 ```html
 <script>
-    nano.paywall({ 
+    NanoPay.wall({ 
         element: '.premium', // required, all with class .premium
         address: 'YOUR_ADDRESS', // required
         amount: 0.001, // required
-        debug: false, // optional
         free: false, // // optional, allow free access
-        background: '#000000de', // optional css hex
-        text: 'Read Lorem for', // optional
-        title: '', // optional
-        color: '', // optional
-        // endpoint: 'https://nanolooker.com/api/rpc', // optional
         success: (block) => {
             // Element(s) are automatically shown.
-            console.log(block)
-        }
-    })
-</script>
-```
-
-### Single Charge
-
-Accept one-time Nano payments.
-
-```html
-<script>
-    // open up popup
-    nano.charge({ 
-        address: 'YOUR_ADDRESS', // required
-        amount: 0.001, // required
-        random: true, // recommended
-        success: (block) => {
             console.log(block)
         }
     })
